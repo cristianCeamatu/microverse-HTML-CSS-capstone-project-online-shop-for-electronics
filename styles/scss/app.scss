@@ -121,6 +121,8 @@ img {
   select {
     border: 1px solid $theme-primary;
     font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
 
@@ -218,12 +220,17 @@ img {
     text-justify: auto;
   }
 
+  .footer-group-double {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .footer-links-title {
     border-bottom: 1px solid $theme-primary;
     font-size: 16px;
   }
 
   .footer-settings {
+    text-align: center;
     .footer-setting-label,
     .footer-setting-select {
       font-size: 20px;
@@ -231,6 +238,18 @@ img {
   
     .footer-setting-select {
       width: 250px;
+    }
+
+  }
+  @media (min-width: 420px) {
+    .footer-settings {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: right;
+    }
+
+    .footer-group-double {
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 }
