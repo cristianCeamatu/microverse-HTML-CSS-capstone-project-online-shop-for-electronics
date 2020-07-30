@@ -114,10 +114,10 @@ img {
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
 }
 .nav .nav-brand {
-  width: 80px;
+  width: 75px;
 }
 .nav .nav-right {
   display: flex;
@@ -188,7 +188,7 @@ img {
 }
 .articles .articles-container {
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 .articles .articles-container .article {
   font-size: 14px;

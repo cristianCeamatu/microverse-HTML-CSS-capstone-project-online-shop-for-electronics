@@ -93,10 +93,10 @@ img {
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
 
   .nav-brand {
-    width: 80px;
+    width: 75px;
   }
 
   .nav-right {
@@ -180,7 +180,7 @@ img {
 
   .articles-container {
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
     .article {
       font-size: 14px;
       padding-bottom: 20px;
