@@ -1,6 +1,7 @@
 /// Partials
 @import 'mixins';
 @import 'variables';
+@import 'typography';
 
 * {
   @include box-sizing;
@@ -8,4 +9,5 @@
 
 body {
   background-color: $theme-primary;
+  font-family: $font-gotham;
 }
