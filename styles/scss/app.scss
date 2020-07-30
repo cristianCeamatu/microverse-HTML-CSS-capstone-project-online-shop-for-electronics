@@ -254,3 +254,29 @@ img {
     }
   }
 }
+
+@media (min-width: 768px){
+  .showcase-search-form,
+  .slider-section-title,
+  .slider-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .slider-flex-container {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+
+  .slider-image {
+    flex-basis: 40%;
+  }
+
+  .slider-image img {
+    height: 240px;
+  }
+
+  .slider-details {
+    flex-basis: 60%;
+  }
+}
