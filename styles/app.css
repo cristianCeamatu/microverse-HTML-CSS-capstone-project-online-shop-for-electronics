@@ -81,9 +81,21 @@ img {
   font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", Helvetica, Arial, sans-serif;
 }
 
+.font-helvetica-light {
+  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+}
+
 .active,
 .text-red {
   color: #d35266;
+}
+
+.button-primary {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #d35266;
+  color: white;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
 }
 
 /* Navigation */
@@ -117,6 +129,27 @@ img {
 .showcase input,
 .showcase select {
   border: 1px solid #d35266;
+  font-size: 14px;
+}
+
+/* Slider */
+.slider .slider-section-title {
+  font-size: 16px;
+}
+.slider .slider-image {
+  position: relative;
+  width: 100%;
+}
+.slider .slider-image .slider-image img {
+  object-fit: cover;
+}
+.slider .slider-image-buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+}
+.slider .slider-description {
   font-size: 14px;
 }
 

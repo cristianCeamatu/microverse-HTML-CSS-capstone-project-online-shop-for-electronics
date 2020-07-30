@@ -1,7 +1,7 @@
 /// Partials
-@import 'mixins';
 @import 'variables';
 @import 'typography';
+@import 'mixins';
 
 /* Reset */
 *,
@@ -64,9 +64,17 @@ img {
   font-family: $font-helvetica;
 }
 
+.font-helvetica-light {
+  font-family: $font-helvetica-light;
+}
+
 .active,
 .text-red {
   color: $theme-primary;
+}
+
+.button-primary {
+  @include button-primary;
 }
 
 /* Navigation */
@@ -106,3 +114,30 @@ img {
     font-size: 14px;
   }
 }
+
+/* Slider */
+.slider {
+  .slider-section-title {
+    font-size: 16px;
+  }
+
+  .slider-image {
+    position: relative;
+    width: 100%;
+    .slider-image img {
+      object-fit: cover;
+    }
+  }
+
+  .slider-image-buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+  }
+
+  .slider-description {
+    font-size: 14px;
+  }
+}
+ 

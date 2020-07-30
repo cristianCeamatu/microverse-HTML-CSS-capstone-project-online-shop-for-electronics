@@ -55,30 +55,41 @@
   </section>
 
   <!-- Slider -->
-  <section class="slider">
-    <h2 class="slider-title">Craft of the month</h2>
+  <section class="slider m-3 py-4">
+    <h2 class="slider-section-title text-gray text-uppercase">Crafts of the month</h2>
 
-    <div class="slider-container">
+    <div class="slider-container px-2 d-flex align-items-center justify-content-center">
+      <span class="arrow text-red border mr-2 p-2 rounded-circle">
+        &#10094;</span>
       <div class="slider-image">
-        <img class="w-100" src="./img/slider.jpg" alt="Colored bird houses">
-        <ul class="slider-image-buttons">
-          <li><a href="" class="slider-image-button"><i class="fas fa-angle-left"></i></a></li>
-          <li><a href="" class="slider-image-button"><i class="fas fa-angle-right"></i></a></li>
-        </ul>
+        <img src="./img/slider.jpg" alt="Colored bird houses">
+        <div class="slider-image-buttons d-flex">
+          <button type="button" class="slider-image-button text-red background-black px-3 py-1"><i
+              class="fas fa-angle-left"></i></button>
+          <button type="button" class="slider-image-button text-red background-black px-3 py-1"><i
+              class="fas fa-angle-right"></i></button>
+        </div>
       </div>
+      <span class="arrow text-red ml-2 p-2 border rounded-circle">
+        &#10095;</span>
     </div>
 
-    <div class="slider-details">
-      <h3 class="slider-title">Awesome homemage bird houses</h3>
-      <p class="slider-description">It is a long established fact that a reader will be distracted by the readable
+    <div class="slider-details text-gray">
+      <h3 class="slider-title text-red h4 mt-3">Awesome homemade bird houses</h3>
+      <p class="slider-description font-helvetica">It is a long established fact that a reader will be distracted
+        by the
+        readable
         content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
         normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable
         English.</p>
-      <p class="slider-author">By: <span class="text-secondary">John Doe</span></p>
-      <p class="slider-location">Location: <span class="text-secondary">Romania, Europe</span></p>
-      <ul class="slider-buttons">
-        <li><button class="slider-button">50$</button></li>
-        <li><button class="slider-button"><i class="fas fa-shopping-cart"></i> Add to cart</button></li>
+      <p class="slider-author font-helvetica mb-0">By: <span class="text-secondary font-helvetica-light">John Doe</span>
+      </p>
+      <p class="slider-location font-helvetica">Location: <span class="text-secondary font-helvetica-light">Romania,
+          Europe</span></p>
+      <ul class="slider-buttons d-flex align-items-center">
+        <li><button class="slider-button button-primary">50$</button></li>
+        <li><button class="slider-button button-primary"><i class="fas fa-shopping-cart"></i> Purchase details</button>
+        </li>
       </ul>
     </div>
 
