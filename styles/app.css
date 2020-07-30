@@ -226,9 +226,12 @@ img {
   border-bottom: 1px solid #d35266;
   font-size: 16px;
 }
-.footer-main .footer-setting-label,
-.footer-main .footer-setting-select {
+.footer-main .footer-settings .footer-setting-label,
+.footer-main .footer-settings .footer-setting-select {
   font-size: 20px;
+}
+.footer-main .footer-settings .footer-setting-select {
+  width: 250px;
 }
 
 /*# sourceMappingURL=app.css.map */

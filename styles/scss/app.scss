@@ -223,8 +223,14 @@ img {
     font-size: 16px;
   }
 
-  .footer-setting-label,
-  .footer-setting-select {
-    font-size: 20px;
+  .footer-settings {
+    .footer-setting-label,
+    .footer-setting-select {
+      font-size: 20px;
+    }
+  
+    .footer-setting-select {
+      width: 250px;
+    }
   }
 }
