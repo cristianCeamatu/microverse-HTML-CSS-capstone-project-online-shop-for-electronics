@@ -26,6 +26,14 @@ button {
   border: none;
 }
 
+input:focus,
+input:active,
+select:focus,
+select:active {
+  outline: none;
+  border: none;
+}
+
 /* Global */
 body {
   font-family: $font-gotham;
@@ -48,6 +56,14 @@ img {
   color: $theme-gray;
 }
 
+.font-gotham-light {
+  font-family: $font-gotham-light;
+}
+
+.font-helvetica {
+  font-family: $font-helvetica;
+}
+
 .active,
 .text-red {
   color: $theme-primary;
@@ -58,15 +74,35 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: -1px;
 
   .nav-brand {
-    width: 70px;
+    width: 80px;
   }
 
   .nav-right {
     display: flex;
     align-items: center;
     align-self: center;
+  }
+}
+
+/* Showcase */ 
+.showcase {
+  background: rgb(211,82,102);
+  background: linear-gradient(270deg, rgba(211,82,102,0.40379901960784315) 0%, rgba(211,82,102,0.804359243697479) 25%, rgba(211,82,102,0.8015581232492998) 75%, rgba(211,82,102,0.6334908963585435) 92%), url("../../img/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .showcase-title {
+    font-size: 28px;
+  }
+
+  input,
+  select {
+    border: 1px solid $theme-primary;
+    font-size: 14px;
   }
 }

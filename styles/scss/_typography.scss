@@ -24,6 +24,12 @@
 }
 
 
-$font-helvetica: "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+$font-helvetica: "helvetica-medium","helvetica-light", "helvetica-bold", Helvetica, Arial, sans-serif;
 
-$font-gotham: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+$font-helvetica-light: "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+
+$font-helvetica-bold: "helvetica-bold", "helvetica-light", "helvetica-medium", Helvetica, Arial, sans-serif;
+
+$font-gotham: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+
+$font-gotham-light: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
