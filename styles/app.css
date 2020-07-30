@@ -190,6 +190,7 @@ img {
   gap: 10px;
 }
 .articles .articles-container .article {
+  padding-bottom: 8px;
   font-size: 14px;
 }
 .articles .articles-container .article .article-image {
