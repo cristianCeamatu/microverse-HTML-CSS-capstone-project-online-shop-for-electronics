@@ -73,6 +73,10 @@ img {
   color: #888;
 }
 
+.text-black {
+  color: #383838;
+}
+
 .font-gotham-light {
   font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
 }
@@ -96,6 +100,10 @@ img {
   background-color: #d35266;
   color: white;
   font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+}
+
+.d-grid {
+  display: grid;
 }
 
 /* Navigation */
@@ -158,6 +166,45 @@ img {
 }
 .slider .slider-description {
   font-size: 14px;
+}
+
+/* Articles */
+.main-section-container {
+  background-color: #f2f2f2;
+}
+
+.articles .articles-title {
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+.articles .articles-title i {
+  font-size: 24px;
+}
+.articles .articles-subtitle {
+  font-size: 12px;
+}
+.articles .articles-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.articles .articles-container .article {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.articles .articles-container .article .article-image {
+  height: 200px;
+}
+.articles .articles-container .article .article-image img {
+  height: 100%;
+  object-fit: cover;
+}
+.articles .articles-container .article .article-title {
+  font-size: 16px;
+}
+.articles .articles-container .article .article-button {
+  font-size: 20px;
+  color: #bbbbbb;
 }
 
 /*# sourceMappingURL=app.css.map */
