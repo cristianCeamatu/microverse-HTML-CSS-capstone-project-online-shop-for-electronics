@@ -33,13 +33,14 @@
 
   <!-- Showcase -->
   <section class="showcase text-center py-5 px-2">
-    <div class="showcase-details text-white mb-4">
+    <div class="showcase-details text-white mb-4 mb-md-5 pt-md-4">
       <h1 class="showcase-title text-uppercase font-weight-bold mb-0">Crafts</h1>
       <p class="showcase-subtitle font-gotham-light">Buy and sell beautifully crafted handmades</p>
     </div>
 
-    <form action="search.html" class="showcase-search-form font-helvetica px-4" action="get">
-      <select name="category" id="category" class="d-block w-100 p-2 text-gray mb-1">
+    <form action="search.html" class="showcase-search-form font-helvetica px-4 d-md-flex align-items-center"
+      action="get">
+      <select name="category" id="category" class="d-block w-100 py-2 px-3 text-gray mb-1 mb-md-0">
         <option value="stained-glass">All categories</option>
         <option value="stained-glass">Stained glass</option>
         <option value="jewelry">Jewelry</option>
@@ -48,9 +49,13 @@
         <option value="bird-houses">Bird houses</option>
       </select>
 
-      <input type="text" placeholder="What are you searching for?" class="d-block w-100 p-2 text-gray mb-1">
+      <input type="text" placeholder="What are you searching for?"
+        class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
 
-      <input type="text" placeholder="Country/Region" class="d-block w-100 p-2 text-gray mb-1">
+      <input type="text" placeholder="Country/Region" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
+
+      <button class="showcase-search-button background-black text-gray py-2 px-4 ml-md-2 rounded"
+        type="button">Search</button>
     </form>
   </section>
 
