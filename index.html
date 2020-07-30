@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="./styles/app.css">
   <title>Homemades online shop - microverse capstone HTML/CSS project</title>
@@ -13,16 +14,49 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="nav-main">
+  <nav class="nav">
+    <ul class="nav-left">
+      <li class="nav-link"><a class="nav-brand" href="#"><img src="./favicon.svg" alt="Company logo">
+          Handmades</a></li>
+      <li class="nav-link"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+      <li class="nav-link"><a href="#"><i class="fas fa-th-list"></i> Categories</a></li>
+      <li class="nav-link"><a href="#"><i class="fas fa-search"></i> Search</a></li>
+      <li class="nav-link"><button type="button" class="nav-button">Sell your products</button></li>
+    </ul>
   </nav>
 
   <!-- Showcase -->
   <section class="showcase">
+    <div class="showcase-details">
+      <h1 class="showcase-title">Handmades</h1>
+      <p class="showcase-subtitle">Buy and sell beautifully crafted handmades</p>
+    </div>
 
+    <form action="search.html" class="showcase-search-form" action="get">
+      <select name="category" id="category">
+        <option value="stained-glass">Stained glass</option>
+        <option value="jewelry">Jewelry</option>
+        <option value="headbands">Headbands</option>
+        <option value="magnets">Magnets</option>
+        <option value="bird-houses">Bird houses</option>
+      </select>
+
+      <input type="text" placeholder="What are you searching for today?">
+
+      <input type="text" placeholder="Country/Region">
+    </form>
   </section>
 
   <!-- Slider -->
-  <section class="slider"></section>
+  <section class="slider">
+    <h3 class="slider-title">Craft of the month</h3>
+
+    <div class="slider-container">
+      <div class="slider-image">
+        slider-image
+      </div>
+    </div>
+  </section>
 
   <!-- Main articles -->
   <main class="main-section-container">
@@ -38,6 +72,7 @@
 
   <!-- <div>Icons made by <a href="https://www.flaticon.com/free-icon/info@pixelbuddha.net" title="Pixel Buddha">Pixel
       Buddha</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.js"></script>
 </body>
 
