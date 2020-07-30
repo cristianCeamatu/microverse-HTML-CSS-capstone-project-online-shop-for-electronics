@@ -328,12 +328,14 @@
   </main>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer text-gray p-3">
 
-    <div class="footer-main">
+    <div class="footer-main d-grid">
       <div class="footer-company">
-        <div class="footer-company-logo"><img src="./favicon.svg" alt="Company logo"> Handmades</div>
-        <p class="footer-company-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+        <div class="footer-company-logo my-4 p-1"><img src="./img/brand2.png" alt="Company logo"></div>
+        <p class="footer-company-description font-gotham-light mt-3">Sed ut perspiciatis unde omnis iste natus
+          error sit
+          voluptatem accusantium
           doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
           beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
           sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
@@ -341,57 +343,78 @@
       </div>
 
       <div class="footer-links">
-        <h4 class="footer-links-title">Categories</h4>
+        <h4 class="footer-links-title text-uppercase text-red pb-2">Categories</h4>
 
-        <ul class="footer-links-group">
-          <li><a href="">Real estate</a></li>
-          <li><a href="">Automotive</a></li>
-          <li><a href="">Electronica</a></li>
-          <li><a href="">Real estate</a></li>
-          <li><a href="">Automotive</a></li>
-          <li><a href="">Electronica</a></li>
+        <ul class="footer-links-group font-gotham-light">
+          <li class="float-left w-50"><a href="">Real estate</a></li>
+          <li class="float-left w-50"><a href="">Automotive</a></li>
+          <li class="float-left w-50"><a href="">Electronica</a></li>
+          <li class="float-left w-50"><a href="">Real estate</a></li>
+          <li class="float-left w-50"><a href="">Automotive</a></li>
+          <li class="float-left w-50"><a href="">Electronica</a></li>
+          <li class="float-left w-50"><a href="">Real estate</a></li>
+          <li class="float-left w-50"><a href="">Automotive</a></li>
+          <li class="float-left w-50"><a href="">Electronica</a></li>
+          <li class="float-left w-50"><a href="">Real estate</a></li>
+          <li class="float-left w-50"><a href="">Automotive</a></li>
+          <li class="float-left w-50"><a href="">Electronica</a></li>
         </ul>
       </div>
 
       <div class="footer-links">
-        <h4 class="footer-links-title">Credits</h4>
+        <h4 class="footer-links-title text-uppercase text-red pb-2">Credits</h4>
 
-        <ul class="footer-links-group">
-          <li>Icons made by <a href="https://www.flaticon.com/free-icon/info@pixelbuddha.net">Pixel
-              Buddha</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
-          <li><a href="">Automotive</a></li>
-          <li><a href="">Electronica</a></li>
-          <li><a href="">Real estate</a></li>
+        <ul class="footer-links-group font-gotham-light">
+          <li><a href=" https://www.flaticon.com/free-icon/info@pixelbuddha.net">Pixel
+              Buddha</a></li>
+          <li><a href=""><a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></a></li>
+          <li><a href="https://www.microverse.org/">Microverse</a></li>
+          <li><a href="https://www.behance.net/M_Awad">Mohammed Awad</a></li>
           <li><a href="">Automotive</a></li>
           <li><a href="">Electronica</a></li>
         </ul>
       </div>
 
       <div class="footer-settings">
-        <p class="footer-setting"><span class="footer-setting-label">Country</span> <span
-            class="footer-setting-value">Romania</span></p>
-        <p class="footer-setting"><span class="footer-setting-label">Country</span> <span
-            class="footer-setting-value">Romania</span></p>
-        <p class="footer-setting"><span class="footer-setting-label">Country</span> <span
-            class="footer-setting-value">Romania</span></p>
+        <div class="footer-setting mb-2">
+          <label class="footer-setting-label text-red mr-2" for="language">Language</label>
+          <select class="footer-setting-select px-3 py-2 text-gray" name="language" id="language">
+            <option value="english">English</option>
+          </select>
+        </div>
+
+        <div class="footer-setting mb-2">
+          <label class="footer-setting-label text-red mr-2" for="location">Location</label>
+          <select class="footer-setting-select px-3 py-2 text-gray" name="location" id="location">
+            <option value="romania">Romania</option>
+          </select>
+        </div>
+
+        <div class="footer-setting mb-2">
+          <label class="footer-setting-label text-red mr-2" for="location">Currency</label>
+          <select class="footer-setting-select px-3 py-2 text-gray" name="currency" id="currency">
+            <option value="currency">US Dollars</option>
+          </select>
+        </div>
       </div>
     </div>
 
     <div class="footer-copyright">
       <div class="footer-copyright-left">
-        <p class="text-small text-muted">
-          This website is made with <i class="fas fa-heart text-danger"></i> by <a
-            href="https://github.com/cristianCeamatu">Cristian Viorel Ceamatu</a>
+        <p class="font-helvetica-light text-center my-4">
+          This website is made with <i class="fas fa-heart text-danger"></i>
+          <br>
+          by <a href="https://github.com/cristianCeamatu" class="font-weight-bold">Cristian Viorel Ceamatu</a>
           <br>
           <span>&copy; Copyright 2017 - 2020 </span>
         </p>
       </div>
 
-      <ul class="footer-copyright-right">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-google"></i></a></li>
+      <ul class="footer-copyright-right d-flex align-items-center justify-content-center my-3">
+        <li class="mr-3"><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-google"></i></a></li>
         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </div>

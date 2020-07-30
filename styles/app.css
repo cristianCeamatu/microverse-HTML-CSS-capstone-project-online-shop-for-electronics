@@ -35,7 +35,6 @@ ul {
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 button {
@@ -207,6 +206,29 @@ img {
 .articles .articles-container .article .article-button {
   font-size: 20px;
   color: #bbbbbb;
+}
+
+/* Footer */
+.footer-main {
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+}
+.footer-main .footer-company-logo {
+  width: 140px;
+  margin: 0 auto;
+  background-color: #888;
+}
+.footer-main .footer-company-description {
+  text-align: justify;
+  text-justify: auto;
+}
+.footer-main .footer-links-title {
+  border-bottom: 1px solid #d35266;
+  font-size: 16px;
+}
+.footer-main .footer-setting-label,
+.footer-main .footer-setting-select {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */
