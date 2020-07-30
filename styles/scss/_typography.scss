@@ -1,0 +1,29 @@
+@font-face {
+  font-family: gotham-bold;
+  src: url(../fonts/GothamBold.ttf)
+}
+
+@font-face {
+  font-family: gotham-light;
+  src: url(../fonts/GothamRoundedLight_21020.ttf)
+}
+
+@font-face {
+  font-family: helvetica-light;
+  src: url(../fonts/HelveticaNeue-Light.ttf)
+}
+
+@font-face {
+  font-family: helvetica-medium;
+  src: url(../fonts/HelveticaNeue-Medium.ttf)
+}
+
+@font-face {
+  font-family: helvetica-bold;
+  src: url(../fonts/HelveticaNeue-Bold.ttf)
+}
+
+
+$font-helvetica: "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+
+$font-gotham: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
