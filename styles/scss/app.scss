@@ -263,7 +263,8 @@ img {
     margin: 0 auto;
   }
 
-  .slider-flex-container {
+  .slider-flex-container,
+  .articles {
     max-width: 880px;
     margin: 0 auto;
   }
@@ -279,4 +280,9 @@ img {
   .slider-details {
     flex-basis: 60%;
   }
+
+  .articles .articles-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
 }
