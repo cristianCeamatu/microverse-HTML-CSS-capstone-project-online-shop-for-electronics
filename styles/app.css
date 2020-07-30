@@ -55,6 +55,8 @@ select:active {
 body {
   font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
   line-height: 1.4;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 img {

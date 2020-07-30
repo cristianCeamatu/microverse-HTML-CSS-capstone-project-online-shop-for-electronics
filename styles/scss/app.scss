@@ -38,6 +38,8 @@ select:active {
 body {
   font-family: $font-gotham;
   line-height: 1.4;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 img {
