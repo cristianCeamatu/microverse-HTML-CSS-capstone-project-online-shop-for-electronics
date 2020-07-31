@@ -27,6 +27,8 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 - Webhint/Stylelint linters
 - NPM scripts for testing and running the SCSS changes
 
+#### You can check the workflow that I use when building website by reading my medium article [Organize your HTML and CSS files like a pro](https://medium.com/@cristian.ceamatu/the-best-way-to-clone-create-any-website-in-very-simple-steps-3e4f467567ba)
+
 ## Live Demo
 
 [Live Demo index page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/index.html)
