@@ -200,6 +200,7 @@ img {
 .main-section-container {
   background-color: #f2f2f2;
 }
+
 .articles {
   .articles-title {
     font-size: 16px;
@@ -284,6 +285,25 @@ img {
 }
 
 .search-grid-container {
+  max-width: 1024px;
+  background-color: #f2f2f2;
+
+  img {
+    width: 20%;
+  }
+
+  .search-filter-title {
+    font-size: 16px;
+  }
+
+  .form-check-label {
+    font-size: 12px;
+  }
+
+  .custom-input {
+    width: 60px;
+    border: 1px solid $theme-gray;
+  }
 }
 
 /* Footer */

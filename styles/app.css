@@ -278,6 +278,24 @@ img {
   display: block;
 }
 
+.search-grid-container {
+  max-width: 1024px;
+  background-color: #f2f2f2;
+}
+.search-grid-container img {
+  width: 20%;
+}
+.search-grid-container .search-filter-title {
+  font-size: 16px;
+}
+.search-grid-container .form-check-label {
+  font-size: 12px;
+}
+.search-grid-container .custom-input {
+  width: 60px;
+  border: 1px solid #888;
+}
+
 /* Footer */
 .footer .footer-main {
   grid-gap: 20px;
