@@ -1,30 +1,37 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Positioning and Floating Elements project: New York Times article page
+# This is a capstone (exam) project: Online shop (index and search page) - (Built time 16 hours)
 
-> This is a New York Times article page clone using HTML and CSS3.
+> This is a Crafts (handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
 
-## Screenshots of original website
+## Screenshot of the index page
 
-![screenshot](./app-screenshot-original-full.png)
+![screenshot](./.github/app-screenshot-index.png)
 
-## Screenshots of our clone website
+## Screenshot of the search page
 
-![screenshot](./app-screenshot-clone-full.png)
+![screenshot]((./.github/app-screenshot-search.png)
 
 
-The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
+The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties. I used SCSS functionality like variables, mixins and color functions.
 
 ## Built With
 
 - HTML
-- CSS3
+- CSS3/SCSS
+- Bootstrap
 - Font awesome icons
+- Webhint/Stylelint linters
+- NPM scripts for testing and running the SCSS changes
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-new-york-times-article-page/adding-article-page/index.html)
+[Live Demo index page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/index.html)
+
+[Live Demo search page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/search.html)
+
+- You can also navigate between pages using the navigation links and the search form.
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -48,12 +55,6 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 - Github: [@githubhandle](https://github.com/cristianCeamatu)
 - Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
 - Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
-
-👤 **Diego Lira**
-
-- Github: [@githubhandle](https://github.com/lirad)
-- Twitter: [@twitterhandle](https://twitter.com/lirad)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diegoalira/)
 
 ## Show your support
 
