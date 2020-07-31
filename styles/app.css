@@ -195,11 +195,14 @@ img {
 }
 .articles .articles-container {
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
   gap: 10px;
 }
 .articles .articles-container .article {
   padding-bottom: 8px;
   font-size: 14px;
+  min-width: 160px;
+  max-width: 200px;
 }
 .articles .articles-container .article .article-image {
   height: 200px;
