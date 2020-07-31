@@ -1,9 +1,9 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# This is a capstone (exam) project: Online shop (index and search page) - (Built time 16 hours)
+# Online shop (index and search page) - (Built time 16 hours)
 
-> This is a Crafts (handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
+> This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a Crafts(handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
 
 ## Screenshot of the index page
 
@@ -11,7 +11,7 @@
 
 ## Screenshot of the search page
 
-![screenshot]((./.github/app-screenshot-search.png)
+![screenshot](./.github/app-screenshot-search.png)
 
 
 The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties. I used SCSS functionality like variables, mixins and color functions.
