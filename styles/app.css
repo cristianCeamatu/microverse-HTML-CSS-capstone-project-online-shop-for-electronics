@@ -148,6 +148,9 @@ img {
   width: 25px;
   height: 25px;
 }
+.nav-container a:hover {
+  color: #d5d5d5;
+}
 
 /* Showcase */
 .showcase {

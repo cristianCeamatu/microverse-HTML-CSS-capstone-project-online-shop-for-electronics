@@ -130,6 +130,10 @@ img {
     width: 25px;
     height: 25px;
   }
+
+  a:hover {
+    color: lighten($theme-gray, $amount: 30);
+  }
 }
 
 /* Showcase */ 
