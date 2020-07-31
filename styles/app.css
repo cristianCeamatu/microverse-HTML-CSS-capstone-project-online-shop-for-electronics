@@ -245,10 +245,12 @@ img {
 }
 .footer-main .footer-settings .footer-setting-label,
 .footer-main .footer-settings .footer-setting-select {
-  font-size: 20px;
+  font-size: 14px;
 }
 .footer-main .footer-settings .footer-setting-select {
-  width: 250px;
+  text-align: center;
+  min-width: 120px;
+  display: inline-block;
 }
 @media (min-width: 420px) {
   .footer-main .footer-settings {
@@ -316,6 +318,29 @@ img {
 
   .articles .articles-container {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer-main {
+    grid-template-columns: 1.5fr 1fr 1fr 1.6fr;
+    align-items: baseline;
+  }
+  .footer-main .footer-company {
+    grid-column: 1/span 1;
+    font-size: 13px;
+    word-spacing: -1px;
+  }
+  .footer-main .footer-links {
+    font-size: 13px;
+  }
+  .footer-main .footer-group-double {
+    grid-template-columns: 1fr;
+  }
+  .footer-main .footer-settings {
+    grid-column: 4/span 1;
+    align-self: center;
+  }
+  .footer-main .footer-settings .footer-setting-select {
+    text-align: center;
   }
 }
 
