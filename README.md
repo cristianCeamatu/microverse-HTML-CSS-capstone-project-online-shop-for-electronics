@@ -1,7 +1,7 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Online shop (index and search page) - (Built time 16 hours)
+# Online shop (index and search page) - Built time 16 hours
 
 > This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a Crafts(handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
 
@@ -28,7 +28,7 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 - Webhint/Stylelint linters
 - NPM scripts for testing and running the SCSS changes
 
-#### You can check the workflow that I use when building website by reading my medium article [Organize your HTML and CSS files like a pro](https://medium.com/@cristian.ceamatu/the-best-way-to-clone-create-any-website-in-very-simple-steps-3e4f467567ba)
+#### You can check the workflow that I use when building websites by reading my medium article [Organize your HTML and CSS files like a pro](https://medium.com/@cristian.ceamatu/the-best-way-to-clone-create-any-website-in-very-simple-steps-3e4f467567ba)
 
 ## Live Demo
 
