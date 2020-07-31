@@ -33,7 +33,7 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 
 [Live Demo search page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/search.html)
 
-- You can also navigate between pages using the navigation links and the search form.
+(You can also navigate between pages using the navigation links and the search form.)
 
 ## To get a local copy up and running follow these simple example steps.
 
