@@ -318,6 +318,9 @@ img {
       margin: 30px auto 15px;
     }
 
+    .search-article {
+      border: 1px solid #dee2e6;
+    }
     .search-article-title {
       font-size: 16px;
     }
@@ -325,6 +328,10 @@ img {
     .search-article-description {
       font-size: 14px;
       letter-spacing: 0.5px;
+    }
+
+    .search-article-button {
+      font-size: 14px;
     }
   }
 }
@@ -490,11 +497,8 @@ img {
       border-top: 1px solid #dee2e6;
     }
     .search-article {
-      border-top: 1px solid #dee2e6;
-      border-bottom: 1px solid #dee2e6;
-
       .search-article-image {
-        flex: 1.4;
+        flex: 1.2;
 
         img {
           height: 100%;
