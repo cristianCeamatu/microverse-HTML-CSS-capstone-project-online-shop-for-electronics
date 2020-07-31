@@ -470,6 +470,7 @@ img {
   }
   .search-grid-container .search-article .search-article-image img {
     height: 100%;
+    max-height: 270px;
     object-fit: cover;
   }
   .search-grid-container .search-article .search-article-details {
