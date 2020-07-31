@@ -20,7 +20,15 @@ a {
   color: inherit;
 }
 
-button {
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+button,
+button:focus,
+button:active {
   outline: none;
   border: none;
 }
@@ -210,7 +218,45 @@ img {
 
       .article-button {
         font-size: 20px;
-        color: lighten($theme-gray, 20%)
+        color: lighten($theme-gray, 20%);
+        background-color: #fff;
+      }
+
+      .article-popover {
+        display: none;
+        background-color: #fff;
+        width: 150px;
+        height: 110px;
+        top: -118px;
+        left: calc(50% - 75px);
+
+        .article-popover-item:last-child::after {
+          content: " ";
+          display: block;
+          position: absolute;
+          height: 10px;
+          width: 10px;
+          background-color: #fff;
+          z-index: 1;
+          border-left: 0.1px solid lighten($color: $theme-gray, $amount: 30%);
+          border-bottom: 0.1px solid lighten($color: $theme-gray, $amount: 30%);
+          bottom: -8px;
+          left: calc(50% - 5px);
+          transform: rotate(-45deg);
+        }
+      }
+
+      .article-button:hover,
+      .article-button:active,
+      .article-button:focus {
+        background-color: $theme-black;
+        color: $theme-primary;
+      }
+
+      .article-button:hover + .article-popover,
+      .article-button:active + .article-popover,
+      .article-button:focus + .article-popover {
+        display: block;
       }
     }
   }

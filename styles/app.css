@@ -37,7 +37,15 @@ a {
   color: inherit;
 }
 
-button {
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+button,
+button:focus,
+button:active {
   outline: none;
   border: none;
 }
@@ -217,6 +225,40 @@ img {
 .articles .articles-container .article .article-button {
   font-size: 20px;
   color: #bbbbbb;
+  background-color: #fff;
+}
+.articles .articles-container .article .article-popover {
+  display: none;
+  background-color: #fff;
+  width: 150px;
+  height: 110px;
+  top: -118px;
+  left: calc(50% - 75px);
+}
+.articles .articles-container .article .article-popover .article-popover-item:last-child::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  z-index: 1;
+  border-left: 0.1px solid #d5d5d5;
+  border-bottom: 0.1px solid #d5d5d5;
+  bottom: -8px;
+  left: calc(50% - 5px);
+  transform: rotate(-45deg);
+}
+.articles .articles-container .article .article-button:hover,
+.articles .articles-container .article .article-button:active,
+.articles .articles-container .article .article-button:focus {
+  background-color: #383838;
+  color: #d35266;
+}
+.articles .articles-container .article .article-button:hover + .article-popover,
+.articles .articles-container .article .article-button:active + .article-popover,
+.articles .articles-container .article .article-button:focus + .article-popover {
+  display: block;
 }
 
 /* Footer */
