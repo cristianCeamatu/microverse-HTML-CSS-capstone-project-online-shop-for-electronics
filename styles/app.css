@@ -122,14 +122,22 @@ img {
   justify-content: space-between;
   font-size: 12px;
   letter-spacing: -1.5px;
+  /* Search page */
 }
 .nav .nav-brand {
   width: 75px;
+}
+.nav .nav-button {
+  border-radius: 2px;
 }
 .nav .nav-right {
   display: flex;
   align-items: center;
   align-self: center;
+}
+.nav .nav-account-avatar {
+  width: 25px;
+  height: 25px;
 }
 
 /* Showcase */
@@ -310,6 +318,7 @@ img {
   max-width: 900px;
 }
 
+/* Media queries */
 @media (min-width: 576px) {
   .articles .articles-container {
     grid-template-columns: 1fr 1fr 1fr;

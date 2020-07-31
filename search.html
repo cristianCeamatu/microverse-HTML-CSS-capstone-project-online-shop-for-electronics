@@ -14,19 +14,24 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="nav background-black p-2 text-gray">
-    <ul class="mb-0">
+  <nav class="nav background-black px-2 py-md-1 text-gray">
+    <ul class="nav-right mb-0 text-uppercase">
       <li class="nav-brand"><a href="#"><img src="./img/brand2.png" alt="Company logo"></a></li>
+      <li class="active mr-2 mr-sm-4 ml-2"><a href="#"><i class="fas fa-home mr-1"></i> Home</a></li>
+      <li class="mr-2 mr-sm-4"><a href="#"><i class="fas fa-th-list mr-1"></i> Categories</a></li>
+      <li class="mr-sm-4 d-none d-sm-block"><a href="#"><i class="fas fa-search mr-1"></i> Search</a></li>
+      <li class="d-none d-md-block"><button type="button"
+          class="nav-button background-red p-2 font-weight-bold text-white text-uppercase">Sell
+          your products</button>
+      </li>
     </ul>
 
-
-    <ul class="nav-right mb-0 text-uppercase">
-      <li class="active mr-2 mr-sm-4"><a href="#"><i class="fas fa-home mr-1"></i> Home</a></li>
-      <li class="mr-2 mr-sm-4"><a href="#"><i class="fas fa-th-list mr-1"></i> Categories</a></li>
-      <li class="mr-sm-4"><a href="#"><i class="fas fa-search mr-1"></i> Search</a></li>
-      <li class="d-none d-sm-block"><button type="button"
-          class="nav-button background-red p-2 rounded font-weight-bold text-white text-uppercase">Sell
-          your products</button>
+    <ul class="nav-account d-flex align-items-center mb-0">
+      <li class="nav-account-item mr-3">
+        <a href="" class="nav-account-nottifiactions h6"><i class="fas fa-envelope"></i></a>
+      </li>
+      <li class="nav-account-avatar mr-2">
+        <a href=""><img class="rounded-circle" src="./img/avatar.jpg" alt="Account holder"></a>
       </li>
     </ul>
   </nav>

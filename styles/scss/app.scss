@@ -106,10 +106,20 @@ img {
     width: 75px;
   }
 
+  .nav-button {
+    border-radius: 2px;
+  }
+
   .nav-right {
     display: flex;
     align-items: center;
     align-self: center;
+  }
+
+  /* Search page */
+  .nav-account-avatar {
+    width: 25px;
+    height: 25px;
   }
 }
 
@@ -320,6 +330,7 @@ img {
   }
 }
 
+/* Media queries */
 @media (min-width: 576px){
   .articles  .articles-container {
     grid-template-columns: 1fr 1fr 1fr;
