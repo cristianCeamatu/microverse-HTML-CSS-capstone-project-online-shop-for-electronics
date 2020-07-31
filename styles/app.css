@@ -262,47 +262,52 @@ img {
 }
 
 /* Footer */
-.footer-main {
+.footer .footer-main {
   grid-gap: 20px;
   grid-template-columns: 1fr;
+  max-width: 900px;
 }
-.footer-main .footer-company-logo {
+.footer .footer-main .footer-company-logo {
   width: 140px;
   margin: 0 auto;
   background-color: #888;
 }
-.footer-main .footer-company-description {
+.footer .footer-main .footer-company-description {
   text-align: justify;
   text-justify: auto;
 }
-.footer-main .footer-group-double {
+.footer .footer-main .footer-group-double {
   grid-template-columns: 1fr 1fr;
 }
-.footer-main .footer-links-title {
+.footer .footer-main .footer-links-title {
   border-bottom: 1px solid #d35266;
   font-size: 16px;
 }
-.footer-main .footer-settings {
+.footer .footer-main .footer-settings {
   text-align: center;
 }
-.footer-main .footer-settings .footer-setting-label,
-.footer-main .footer-settings .footer-setting-select {
+.footer .footer-main .footer-settings .footer-setting-label,
+.footer .footer-main .footer-settings .footer-setting-select {
   font-size: 14px;
 }
-.footer-main .footer-settings .footer-setting-select {
+.footer .footer-main .footer-settings .footer-setting-select {
   text-align: center;
   min-width: 120px;
   display: inline-block;
 }
 @media (min-width: 420px) {
-  .footer-main .footer-settings {
+  .footer .footer-main .footer-settings {
     max-width: 400px;
     margin: 0 auto;
     text-align: right;
   }
-  .footer-main .footer-group-double {
+  .footer .footer-main .footer-group-double {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+.footer .footer-copyright {
+  font-size: 14px;
+  max-width: 900px;
 }
 
 @media (min-width: 576px) {

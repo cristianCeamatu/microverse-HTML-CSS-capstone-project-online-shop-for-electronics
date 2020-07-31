@@ -263,54 +263,63 @@ img {
 }
 
 /* Footer */
-.footer-main {
-  grid-gap: 20px;
-  grid-template-columns: 1fr;
-  .footer-company-logo {
-    width: 140px;
-    margin: 0 auto;
-    background-color: $theme-gray;
-  }
-  .footer-company-description {
-    text-align: justify;
-    text-justify: auto;
-  }
-
-  .footer-group-double {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .footer-links-title {
-    border-bottom: 1px solid $theme-primary;
-    font-size: 16px;
-  }
-
-  .footer-settings {
-    text-align: center;
-    .footer-setting-label,
-    .footer-setting-select {
-      font-size: 14px;
+.footer {
+  .footer-main {
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    max-width: 900px;
+    .footer-company-logo {
+      width: 140px;
+      margin: 0 auto;
+      background-color: $theme-gray;
+    }
+    .footer-company-description {
+      text-align: justify;
+      text-justify: auto;
     }
   
-    .footer-setting-select {
-      text-align: center;
-      min-width: 120px;
-      display: inline-block;
-    }
-
-  }
-  @media (min-width: 420px) {
-    .footer-settings {
-      max-width: 400px;
-      margin: 0 auto;
-      text-align: right;
-    }
-
     .footer-group-double {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
+  
+    .footer-links-title {
+      border-bottom: 1px solid $theme-primary;
+      font-size: 16px;
+    }
+  
+    .footer-settings {
+      text-align: center;
+      .footer-setting-label,
+      .footer-setting-select {
+        font-size: 14px;
+      }
+    
+      .footer-setting-select {
+        text-align: center;
+        min-width: 120px;
+        display: inline-block;
+      }
+    }
+  
+    @media (min-width: 420px) {
+      .footer-settings {
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: right;
+      }
+  
+      .footer-group-double {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+  }
+
+  .footer-copyright {
+    font-size: 14px;
+    max-width: 900px;
   }
 }
+
 
 @media (min-width: 576px){
   .articles  .articles-container {
