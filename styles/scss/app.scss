@@ -363,7 +363,8 @@ img {
 @media (min-width: 768px){
   .showcase-search-form,
   .slider-section-title,
-  .slider-container {
+  .slider-container,
+  .showcase .showcase-details {
     max-width: 750px;
     margin: 0 auto;
   }
