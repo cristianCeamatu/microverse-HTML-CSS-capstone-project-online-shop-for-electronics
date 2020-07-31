@@ -118,6 +118,9 @@ img {
 
   .nav-button {
     border-radius: 2px;
+    animation-name: colorswitch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
 
   .nav-right {
@@ -188,6 +191,16 @@ img {
     text-align: center;
     font-size: 20px;
     line-height: 20px;
+  }
+
+  .slider-arrow:hover,
+  .slider-arrow:active,
+  .slider-arrow:focus {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+    transition: all 0.2s ease-in-out;
   }
 
   .slider-description {
@@ -527,4 +540,12 @@ img {
       }
     }
   }
+}
+
+@keyframes colorswitch {
+  0% { background-color: $theme-primary; }
+  25% { background-color: lighten($theme-primary, 8%); }
+  50% { background-color: lighten($theme-primary, 13%); }
+  75% { background-color: lighten($theme-primary, 18%); }
+  100% { background-color: $theme-primary; }
 }
