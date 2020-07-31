@@ -159,7 +159,7 @@ img {
 /* Showcase */
 .showcase {
   background: #d35266;
-  background: linear-gradient(270deg, rgba(211, 82, 102, 0.4037990196) 0%, rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%, rgba(211, 82, 102, 0.6334908964) 92%), url("/img/showcase.jpg");
+  background: url("/img/showcase.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
