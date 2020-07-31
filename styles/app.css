@@ -20,8 +20,8 @@
 }
 /* Reset */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -60,7 +60,7 @@ select:active {
 
 /* Global */
 body {
-  font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+  font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
   line-height: 1.4;
   max-width: 1440px;
   margin: 0 auto;
@@ -87,15 +87,15 @@ img {
 }
 
 .font-gotham-light {
-  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 .font-helvetica {
-  font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", Helvetica, Arial, sans-serif;
+  font-family: "helvetica-medium", "helvetica-light", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 .font-helvetica-light {
-  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+  font-family: "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 .active,
@@ -108,7 +108,7 @@ img {
   border-radius: 4px;
   background-color: #d35266;
   color: white;
-  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", Helvetica, Arial, sans-serif;
+  font-family: "gotham-light", "gotham-bold", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
 }
 
 .d-grid {

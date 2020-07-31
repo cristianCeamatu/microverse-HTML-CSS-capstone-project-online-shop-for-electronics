@@ -5,9 +5,10 @@
 
 /* Reset */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   @include box-sizing;
+
   margin: 0;
   padding: 0;
 }
@@ -109,7 +110,7 @@ img {
   letter-spacing: -1.5px;
   width: 100%;
   max-width: 992px;
-  margin: 0 auto; 
+  margin: 0 auto;
 
   .nav-brand {
     width: 75px;
@@ -136,10 +137,10 @@ img {
   }
 }
 
-/* Showcase */ 
+/* Showcase */
 .showcase {
-  background: rgb(211,82,102);
-  background: linear-gradient(270deg, rgba(211,82,102,0.40379901960784315) 0%, rgba(211,82,102,0.804359243697479) 25%, rgba(211,82,102,0.8015581232492998) 75%, rgba(211,82,102,0.6334908963585435) 92%), url("../../img/showcase.jpg");
+  background: rgb(211, 82, 102);
+  background: linear-gradient(270deg, rgba(211, 82, 102, 0.40379901960784315) 0%, rgba(211, 82, 102, 0.804359243697479) 25%, rgba(211, 82, 102, 0.8015581232492998) 75%, rgba(211, 82, 102, 0.6334908963585435) 92%), url("../../img/showcase.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -175,6 +176,7 @@ img {
   .slider-image {
     position: relative;
     width: 100%;
+
     .slider-image img {
       object-fit: cover;
     }
@@ -223,11 +225,13 @@ img {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 10px;
+
     .article {
       padding-bottom: 8px;
       font-size: 14px;
       min-width: 160px;
       max-width: 200px;
+
       .article-image {
         height: 200px;
       }
@@ -287,7 +291,7 @@ img {
   }
 }
 
-/* Search page main container */ 
+/* Search page main container */
 .main-container {
   background-color: #f2f2f2;
   margin: 0;
@@ -303,7 +307,7 @@ img {
   }
 
   /* Aside filters */
-  .search-filters {  
+  .search-filters {
     .custom-input {
       width: 40px;
       border: 1px solid $theme-gray;
@@ -325,6 +329,7 @@ img {
     .search-article {
       border: 1px solid #dee2e6;
     }
+
     .search-article-title {
       font-size: 16px;
     }
@@ -346,40 +351,43 @@ img {
     grid-gap: 20px;
     grid-template-columns: 1fr;
     max-width: 900px;
+
     .footer-company-logo {
       width: 140px;
       margin: 0 auto;
       background-color: $theme-gray;
     }
+
     .footer-company-description {
       text-align: justify;
       text-justify: auto;
     }
-  
+
     .footer-links-group {
       grid-template-columns: 1fr 1fr;
       column-gap: 15px;
     }
-  
+
     .footer-links-title {
       border-bottom: 1px solid $theme-primary;
       font-size: 16px;
     }
-  
+
     .footer-settings {
       text-align: center;
+
       .footer-setting-label,
       .footer-setting-select {
         font-size: 14px;
       }
-    
+
       .footer-setting-select {
         text-align: center;
         min-width: 120px;
         display: inline-block;
       }
     }
-  
+
     @media (min-width: 420px) {
       .footer-settings {
         max-width: 400px;
@@ -396,8 +404,8 @@ img {
 }
 
 /* Media queries */
-@media (min-width: 576px){
-  .articles  .articles-container {
+@media (min-width: 576px) {
+  .articles .articles-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -420,7 +428,7 @@ img {
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .showcase-search-form,
   .slider-section-title,
   .slider-container,
@@ -458,6 +466,7 @@ img {
   .footer-main {
     grid-template-columns: 1.5fr 1fr 1fr 1.6fr;
     align-items: baseline;
+
     .footer-company {
       grid-column: 1 / span 1;
       font-size: 13px;
@@ -470,7 +479,7 @@ img {
       .footer-group-double {
         grid-template-columns: 1fr 1fr;
       }
-  
+
       .footer-group-single {
         grid-template-columns: 1fr;
       }
@@ -479,6 +488,7 @@ img {
     .footer-settings {
       grid-column: 4 / span 1;
       align-self: center;
+
       .footer-setting-select {
         text-align: center;
       }
@@ -491,7 +501,7 @@ img {
     .search-filters {
       border-bottom: 1px solid #dee2e6;
       border-left: 1px solid #dee2e6;
-      
+
       .search-filter-grid-container {
         grid-template-columns: 1fr;
       }
@@ -500,6 +510,7 @@ img {
     .search-articles-container {
       border-top: 1px solid #dee2e6;
     }
+
     .search-article {
       .search-article-image {
         flex: 1.2;
