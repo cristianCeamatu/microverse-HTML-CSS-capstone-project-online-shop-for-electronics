@@ -15,6 +15,7 @@
 
 ![screenshot](./.github/app-screenshot-search.png)
 
+## Watch a video presentation of the project [here](https://www.loom.com/share/1ecb819a678e4b3f8681da87415597cf)
 
 The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties. I used all SCSS core functionality: variables, mixins and color functions.
 
