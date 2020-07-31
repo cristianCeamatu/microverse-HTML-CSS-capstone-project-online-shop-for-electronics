@@ -115,6 +115,12 @@ img {
   display: grid;
 }
 
+.image-buttons {
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+}
+
 /* Navigation */
 .nav-container {
   display: flex;
@@ -186,12 +192,6 @@ img {
   text-align: center;
   font-size: 20px;
   line-height: 20px;
-}
-.slider .slider-image-buttons {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-size: 20px;
 }
 .slider .slider-description {
   font-size: 14px;
@@ -281,19 +281,27 @@ img {
 .search-grid-container {
   max-width: 1024px;
   background-color: #f2f2f2;
+  /* Aside filters */
+  /* Main articles */
 }
-.search-grid-container img {
-  width: 20%;
+.search-grid-container .search-filter-title,
+.search-grid-container .search-articles-title {
+  font-size: 18px;
 }
-.search-grid-container .search-filter-title {
-  font-size: 16px;
-}
-.search-grid-container .form-check-label {
-  font-size: 12px;
-}
-.search-grid-container .custom-input {
+.search-grid-container .search-filters .custom-input {
   width: 60px;
   border: 1px solid #888;
+}
+.search-grid-container .search-articles .search-articles-title {
+  margin: 30px auto 15px;
+  border-bottom: 1px solid #d5d5d5;
+}
+.search-grid-container .search-articles .search-article-title {
+  font-size: 16px;
+}
+.search-grid-container .search-articles .search-article-description {
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 /* Footer */
