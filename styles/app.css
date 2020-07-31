@@ -116,26 +116,29 @@ img {
 }
 
 /* Navigation */
-.nav {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
   letter-spacing: -1.5px;
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
   /* Search page */
 }
-.nav .nav-brand {
+.nav-container .nav-brand {
   width: 75px;
 }
-.nav .nav-button {
+.nav-container .nav-button {
   border-radius: 2px;
 }
-.nav .nav-right {
+.nav-container .nav-right {
   display: flex;
   align-items: center;
   align-self: center;
 }
-.nav .nav-account-avatar {
+.nav-container .nav-account-avatar {
   width: 25px;
   height: 25px;
 }

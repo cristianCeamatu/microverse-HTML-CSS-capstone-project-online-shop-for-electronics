@@ -95,12 +95,15 @@ img {
 }
 
 /* Navigation */
-.nav {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
   letter-spacing: -1.5px;
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto; 
 
   .nav-brand {
     width: 75px;
