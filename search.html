@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/app.css">
+  <title>Homemade crafts online shop - microverse capstone HTML/CSS project</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav background-black p-2 text-gray">
+    <ul class="mb-0">
+      <li class="nav-brand"><a href="#"><img src="./img/brand2.png" alt="Company logo"></a></li>
+    </ul>
+
+
+    <ul class="nav-right mb-0 text-uppercase">
+      <li class="active mr-2 mr-sm-4"><a href="#"><i class="fas fa-home mr-1"></i> Home</a></li>
+      <li class="mr-2 mr-sm-4"><a href="#"><i class="fas fa-th-list mr-1"></i> Categories</a></li>
+      <li class="mr-sm-4"><a href="#"><i class="fas fa-search mr-1"></i> Search</a></li>
+      <li class="d-none d-sm-block"><button type="button"
+          class="nav-button background-red p-2 rounded font-weight-bold text-white text-uppercase">Sell
+          your products</button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="showcase text-center py-5 px-2">
+    <div class="showcase-details text-white mb-4 mb-md-5 pt-md-4">
+      <h1 class="showcase-title text-uppercase font-weight-bold mb-0">Crafts</h1>
+      <p class="showcase-subtitle font-gotham-light">Buy and sell beautifully crafted handmades</p>
+    </div>
+
+    <form action="search.html" class="showcase-search-form font-helvetica px-4 d-md-flex align-items-center"
+      action="get">
+      <select name="category" id="category" class="d-block w-100 py-2 px-3 text-gray mb-1 mb-md-0">
+        <option value="stained-glass">All categories</option>
+        <option value="stained-glass">Stained glass</option>
+        <option value="jewelry">Jewelry</option>
+        <option value="headbands">Headbands</option>
+        <option value="magnets">Magnets</option>
+        <option value="bird-houses">Bird houses</option>
+      </select>
+
+      <input type="text" placeholder="What are you searching?" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
+
+      <input type="text" placeholder="Country/Region" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
+
+      <button class="showcase-search-button background-black text-gray py-2 px-4 ml-md-2 rounded"
+        type="button">Search</button>
+    </form>
+  </section>
+
+  <!-- Main articles -->
+  <main>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer text-gray p-3">
+
+    <div class="footer-main d-grid mx-auto">
+      <div class="footer-company">
+        <div class="footer-company-logo my-4 py-1 px-2 rounded"><img src="./img/brand2.png" alt="Company logo"></div>
+        <p class="footer-company-description font-gotham-light mt-3">Sed ut perspiciatis unde omnis iste natus
+          error sit
+          voluptatem accusantium
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+          beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          sed quia consequuntur magni dolores.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-links-title text-uppercase text-red pb-2">Categories</h4>
+
+        <ul class="footer-links-group footer-group-double d-grid font-gotham-light">
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-links-title text-uppercase text-red pb-2">Credits</h4>
+
+        <ul class="footer-links-group font-gotham-light">
+          <li><a href=" https://www.flaticon.com/free-icon/info@pixelbuddha.net">Pixel
+              Buddha</a></li>
+          <li><a href=""><a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></a></li>
+          <li><a href="https://www.microverse.org/">Microverse</a></li>
+          <li><a href="https://www.behance.net/M_Awad">Mohammed Awad</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-settings">
+        <div class="footer-setting mb-2">
+          <p><span class="footer-setting-label text-red mr-2"> Language</span>
+            <a class="footer-setting-select px-3 py-2 text-gray border">
+              English
+            </a>
+          </p>
+        </div>
+
+        <div class="footer-setting mb-2">
+          <p><span class="footer-setting-label text-red mr-2"> Location</span>
+            <a class="footer-setting-select px-3 py-2 text-gray border">
+              Romania
+            </a>
+          </p>
+        </div>
+
+        <div class="footer-setting mb-2">
+          <p><span class="footer-setting-label text-red mr-2"> Currency</span>
+            <a class="footer-setting-select px-3 py-2 text-gray border">
+              US Dollars
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright d-md-flex justify-content-between align-items-center mx-auto">
+      <div class="footer-copyright-left">
+        <p class="font-helvetica-light text-center my-4">
+          This website is made with <i class="fas fa-heart text-danger"></i>
+          <br class="d-md-none">
+          by <a href="https://github.com/cristianCeamatu" class="font-weight-bold">Cristian Viorel Ceamatu</a>
+          <br class="d-md-none">
+          <span>&copy; Copyright 2017 - 2020 </span>
+        </p>
+      </div>
+
+      <ul class="footer-copyright-right d-flex align-items-center justify-content-center my-3 h3">
+        <li class="mr-3"><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-google"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
