@@ -36,7 +36,7 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 
 [Live Demo search page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/search.html)
 
-(You can also navigate between pages using the navigation links and the search form.)g
+(You can also navigate between pages using the navigation links and the search form.)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -57,9 +57,9 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 👤 **Cristian Viorel Ceamatu**
 
-- Github: [@githubhandle](https://github.com/cristianCeamatu)
-- Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Github: [@cristianCeamatu](https://github.com/cristianCeamatu)
+- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
+- Linkedin: [Ceamatu-Cristian](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
 
 ## Show your support
 
