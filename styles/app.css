@@ -45,11 +45,7 @@ a:visited {
 
 button,
 button:focus,
-button:active {
-  outline: none;
-  border: none;
-}
-
+button:active,
 input:focus,
 input:active,
 select:focus,
@@ -170,8 +166,14 @@ img {
 .showcase .showcase-subtitle {
   font-size: 14px;
 }
-.showcase input,
-.showcase select {
+.showcase .showcase-search-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase .showcase-search-form input,
+.showcase .showcase-search-form select {
   border: 1px solid #d35266;
   font-size: 14px;
   max-width: 600px;
@@ -422,6 +424,10 @@ img {
     margin: 0 auto;
   }
 
+  .showcase .showcase-search-form {
+    flex-direction: row;
+  }
+
   .slider-container {
     margin: 0;
   }
@@ -472,6 +478,11 @@ img {
   }
   .footer-main .footer-settings .footer-setting-select {
     text-align: center;
+  }
+
+  .footer-main .footer-links .footer-group-single,
+.search-grid-container .search-filters .search-filter-grid-container {
+    grid-template-columns: 1fr;
   }
 
   .search-grid-container {
