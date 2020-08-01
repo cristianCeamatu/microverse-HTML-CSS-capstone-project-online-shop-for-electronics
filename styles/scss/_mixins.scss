@@ -3,3 +3,11 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
+@mixin button-primary {
+  padding: 8px 20px;
+  border-radius: 4px;
+  background-color: $theme-primary;
+  color: white;
+  font-family: $font-gotham-light;
+}

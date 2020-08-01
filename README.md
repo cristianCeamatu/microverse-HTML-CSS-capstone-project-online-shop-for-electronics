@@ -1,30 +1,40 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Positioning and Floating Elements project: New York Times article page
+# Online shop (index and search page) - Built time 16 hours
 
-> This is a New York Times article page clone using HTML and CSS3.
+> This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a Crafts(handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
 
-## Screenshots of original website
+## Watch a video presentation of the project [here](https://www.loom.com/share/1ecb819a678e4b3f8681da87415597cf). The website is built using this [mockup](https://www.behance.net/gallery/24796463/ZATTIX)
 
-![screenshot](./app-screenshot-original-full.png)
+## Screenshot of the index page
 
-## Screenshots of our clone website
+![screenshot](./.github/app-screenshot-index.png)
 
-![screenshot](./app-screenshot-clone-full.png)
+## Screenshot of the search page
 
+![screenshot](./.github/app-screenshot-search.png)
 
-The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
+The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties. I used all SCSS core functionality: variables, mixins and color functions.
 
 ## Built With
 
 - HTML
-- CSS3
+- CSS3/SCSS
+- Bootstrap
 - Font awesome icons
+- Webhint/Stylelint linters
+- NPM scripts for testing and running the SCSS changes
+
+#### You can check the workflow that I use when building websites by reading my medium article [Organize your HTML and CSS files like a pro](https://medium.com/@cristian.ceamatu/the-best-way-to-clone-create-any-website-in-very-simple-steps-3e4f467567ba)
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-new-york-times-article-page/adding-article-page/index.html)
+[Live Demo index page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/index.html)
+
+[Live Demo search page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/search.html)
+
+(You can also navigate between pages using the navigation links and the search form.)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -35,7 +45,8 @@ Clone the project locally.
 ### Linters
 
 1. run `npm install`.
-2. run `npm run test` to check the Html and Css files.
+2. run `npm run test` to check the HTML and CSS files.
+2. run `npm run watch` to start watching for SCSS changes.
 
 ### Deployment
 
@@ -45,15 +56,9 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 👤 **Cristian Viorel Ceamatu**
 
-- Github: [@githubhandle](https://github.com/cristianCeamatu)
-- Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
-
-👤 **Diego Lira**
-
-- Github: [@githubhandle](https://github.com/lirad)
-- Twitter: [@twitterhandle](https://twitter.com/lirad)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diegoalira/)
+- Github: [@cristianCeamatu](https://github.com/cristianCeamatu)
+- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
+- Linkedin: [Ceamatu-Cristian](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
 
 ## Show your support
 

@@ -4,12 +4,564 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="./styles/app.css">
-  <title>Testing linters</title>
+  <title>Homemade crafts online shop - microverse capstone HTML/CSS project</title>
 </head>
 
 <body>
-  <h1>Hello world!</h1>
+
+  <!-- Navigation -->
+  <nav class="nav background-black py-1 text-gray">
+    <div class="nav-container">
+      <ul class="nav-left mb-0 text-uppercase">
+        <li class="nav-brand"><a href="./index.html"><img src="./img/brand2.png" alt="Company logo"></a></li>
+        <li class="active mr-2 mr-sm-4 ml-2"><a href="./index.html"><i class="fas fa-home mr-1"></i> Home</a></li>
+        <li class="mr-2 mr-sm-4"><a href="#"><i class="fas fa-th-list mr-1"></i> Categories</a></li>
+        <li class="mr-sm-4 d-none d-sm-block"><a href="./search.html"><i class="fas fa-search mr-1"></i> Search</a></li>
+        <li class="d-none d-sm-block"><button type="button"
+            class="nav-button background-red p-2 font-weight-bold text-white text-uppercase">Sell
+            your products</button>
+        </li>
+      </ul>
+
+      <ul class="nav-account d-flex align-items-center mb-0">
+        <li class="nav-account-item mr-3">
+          <a href="" class="nav-account-nottifiactions h6"><i class="fas fa-envelope"></i></a>
+        </li>
+        <li class="nav-account-avatar mr-2">
+          <a href=""><img class="rounded-circle" src="./img/avatar.jpg" alt="Account holder"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="showcase text-center py-5 px-2">
+    <div class="showcase-details text-white mb-4 mb-md-5 pt-md-4 mx-auto">
+      <h1 class="showcase-title text-uppercase font-weight-bold mb-0">Crafts</h1>
+      <p class="showcase-subtitle font-gotham-light">Buy and sell beautifully crafted handmades</p>
+    </div>
+
+    <form action="./search.html" class="showcase-search-form font-helvetica px-4" method="get">
+      <select name="category" id="category" class="d-block w-100 py-2 px-3 text-gray mb-1 mb-md-0">
+        <option value="stained-glass">All categories</option>
+        <option value="stained-glass">Stained glass</option>
+        <option value="jewelry">Jewelry</option>
+        <option value="headbands">Headbands</option>
+        <option value="magnets">Magnets</option>
+        <option value="bird-houses">Bird houses</option>
+      </select>
+
+      <input type="text" placeholder="What are you searching?" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
+
+      <input type="text" placeholder="Country/Region" class="d-block w-100  py-2 px-3  text-gray mb-1 mb-md-0">
+
+      <button class="showcase-search-button background-black text-gray py-2 px-4 ml-md-2 rounded"
+        type="submit">Search</button>
+    </form>
+  </section>
+
+  <!-- Slider -->
+  <section class="slider my-3 mx-1 pb-3">
+    <h2 class="slider-section-title text-gray text-uppercase px-4 ml-3 mx-md-auto my-md-2">Crafts of the month</h2>
+
+    <div class="slider-flex-container d-flex align-items-center justify-content-center">
+
+      <!-- Arrow left -->
+      <a href="#" class="slider-arrow text-red border mr-2 mr-md-0 p-2 rounded-circle">
+        &#10094;</a>
+
+
+      <div class="slider-container px-1 d-md-flex align-items-center justify-content-center">
+        <div class="slider-image pl-md-1 pl-lg-4">
+          <img src="./img/slider.jpg" alt="Colored bird houses">
+          <div class="image-buttons position-absolute d-flex">
+            <button type="button" class="slider-image-button text-red background-black px-3 py-1"><i
+                class="fas fa-angle-left"></i></button>
+            <button type="button" class="slider-image-button text-red background-black px-3 py-1"><i
+                class="fas fa-angle-right"></i></button>
+          </div>
+        </div>
+
+        <div class="slider-details text-gray pl-md-4">
+          <h3 class="slider-title text-red h5 mt-3">Awesome homemade bird houses</h3>
+          <p class="slider-description font-helvetica">It is a long established fact that a reader will be distracted
+            by the
+            readable
+            content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+            normal distribution of letters, as opposed to using 'Content here, content here', making it look like
+            readable
+            English.</p>
+          <p class="slider-author font-helvetica mb-0">By: <span class="text-gray font-gotham-light">John Doe</span>
+          </p>
+          <p class="slider-location font-helvetica">Location: <span class="text-gray font-gotham-light">Romania,
+              Europe</span></p>
+          <ul class="slider-buttons d-flex align-items-center">
+            <li><button type="button" class="slider-button button-primary">50$</button></li>
+            <li><button type="button" class="slider-button button-primary"><i class="fas fa-shopping-cart"></i>
+                Buy</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Arrow right -->
+      <a href="#" class="slider-arrow text-red ml-2 p-2 border rounded-circle">
+        &#10095;</a>
+
+    </div>
+  </section>
+
+  <!-- Main articles -->
+  <main class="main-section-container text-gray py-3 border-top border-bottom">
+    <!-- New category -->
+    <section class="articles font-helvetica px-1 mb-4">
+      <div class="articles-header border-bottom mb-2 px-2 d-flex align-items-center justify-content-between">
+        <h3 class="articles-title"><i class="fas fa-crow mr-2"></i> Bird houses <span
+            class="articles-subtitle ml-1 font-helvetica-light d-none d-sm-inline">(Lorem, ipsum, dolor, consectetur,
+            adipiscing)</span>
+        </h3>
+
+        <a href="#" class="articles-header-link text-red">View all</a>
+      </div>
+
+      <div class="articles-container d-grid px-1 pb-md-5">
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/birds-houses/birds1.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">House with roof</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Needs painting</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> Romania, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">40$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/birds-houses/birds2.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">For small birds</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Bio materials</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> Germany, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">70$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/birds-houses/birds3.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">The blue fence house</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Unique design</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> Italy, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">120$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded d-sm-none d-md-block">
+          <div class="article-image">
+            <img src="./img/birds-houses/birds4.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Yellow forest</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Luxury living</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> France, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">250$</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- New category -->
+    <section class="articles font-helvetica px-1 mb-4">
+      <div class="articles-header border-bottom mb-2 px-2 d-flex align-items-center justify-content-between">
+        <h3 class="articles-title"><i class="fas fa-ring mr-2"></i> Homemade rings <span
+            class="articles-subtitle ml-1 font-helvetica-light d-none d-sm-inline">(Lorem, ipsum, dolor, consectetur,
+            adipiscing)</span></h3>
+
+
+        <a href="#" class="articles-header-link text-red">View all</a>
+      </div>
+
+      <div class="articles-container d-grid px-1 pb-md-5">
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/rings/rings1.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Diamond rigns</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Bio materials</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> Spain, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">250$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/rings/rings2.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Shining steel</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Work of art</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> Bulgaria, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">150$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/rings/rings3.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Heart ring</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Popular</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> France, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">70$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded d-sm-none d-md-block">
+          <div class="article-image">
+            <img src="./img/rings/rings4.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Blue diamonds</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Luxury class</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> France, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a></li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">350$</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- New category -->
+    <section class="articles font-helvetica px-1 mb-4">
+      <div class="articles-header border-bottom mb-2 px-2 d-flex align-items-center justify-content-between">
+        <h3 class="articles-title"><i class="fas fa-shopping-bag mr-2"></i> Amazing bags <span
+            class="articles-subtitle ml-1 font-helvetica-light d-none d-sm-inline">(Lorem, ipsum, dolor, consectetur,
+            adipiscing)</span></h3>
+
+        <a href="#" class="articles-header-link text-red">View all</a>
+      </div>
+
+      <div class="articles-container d-grid px-1 pb-md-5">
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/bags/bags1.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Traditional luxury</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Bio materials</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> Romania, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a>
+                  </li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">150$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/bags/bags2.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Beach party</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Cheap</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> Germany, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a>
+                  </li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">70$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded">
+          <div class="article-image">
+            <img src="./img/bags/bags3.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Day romance</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Amazing design</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> italy, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a>
+                  </li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">250$</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="article border bg-white rounded d-sm-none d-md-block">
+          <div class="article-image">
+            <img src="./img/bags/bags4.jpg" alt="Handmade bird house">
+          </div>
+
+          <div class="article-details px-3">
+            <h4 class="article-title mt-2 mb-0">Shopping and sport</h4>
+            <p class="article-tag text-red mb-1 font-weight-bold">Bio materials</p>
+            <p class="article-location mb-1"><span class="font-helvetica-light ">From:</span> France, Europe</p>
+
+            <div class="article-options d-flex justify-content-between align-items-center mt-0">
+
+              <div class="article-button-container position-relative">
+                <button type="button" class="article-button border px-2">+</button>
+                <ul class="article-popover border text-center position-absolute rounded">
+                  <li class="article-popover-item py-2"><a href="">Add to collection</a></li>
+                  <li class="article-popover-item py-2 background-black text-white"><a href="">Send an enquiry</a>
+                  </li>
+                  <li class="article-popover-item py-2 position-relative"><a href="">More details</a></li>
+                </ul>
+              </div>
+              <span class="article-price text-red font-weight-bold">50$</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer text-gray p-3">
+
+    <div class="footer-main d-grid mx-auto">
+      <div class="footer-company">
+        <div class="footer-company-logo my-4 py-1 px-2 rounded"><img src="./img/brand2.png" alt="Company logo"></div>
+        <p class="footer-company-description font-gotham-light mt-3">Sed ut perspiciatis unde omnis iste natus
+          error sit
+          voluptatem accusantium
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+          beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          sed quia consequuntur magni dolores.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-links-title text-uppercase text-red pb-2">Categories</h4>
+
+        <ul class="footer-links-group footer-group-double d-grid font-gotham-light">
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+          <li><a href="">Real estate</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-links-title text-uppercase text-red pb-2">Credits</h4>
+
+        <ul class="footer-links-group footer-group-single font-gotham-light d-grid">
+          <li><a href=" https://www.flaticon.com/free-icon/info@pixelbuddha.net">Pixel
+              Buddha</a></li>
+          <li><a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+          <li><a href="https://www.microverse.org/">Microverse</a></li>
+          <li><a href="https://www.behance.net/M_Awad">Mohammed Awad</a></li>
+          <li><a href="">Automotive</a></li>
+          <li><a href="">Electronica</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-settings">
+        <div class="footer-setting mb-2">
+          <p><span class="footer-setting-label text-red mr-2"> Language</span>
+            <a class="footer-setting-select px-3 py-2 text-gray border">
+              English
+            </a>
+          </p>
+        </div>
+
+        <div class="footer-setting mb-2">
+          <p><span class="footer-setting-label text-red mr-2"> Location</span>
+            <a class="footer-setting-select px-3 py-2 text-gray border">
+              Romania
+            </a>
+          </p>
+        </div>
+
+        <div class="footer-setting mb-2">
+          <p><span class="footer-setting-label text-red mr-2"> Currency</span>
+            <a class="footer-setting-select px-3 py-2 text-gray border">
+              US Dollars
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright d-md-flex justify-content-between align-items-center mx-auto">
+      <div class="footer-copyright-left">
+        <p class="font-helvetica-light text-center my-4">
+          This website is made with <i class="fas fa-heart text-danger"></i>
+          <br class="d-md-none">
+          by <a href="https://github.com/cristianCeamatu" class="font-weight-bold">Cristian Viorel Ceamatu</a>
+          <br class="d-md-none">
+          <span>&copy; Copyright 2017 - 2020 </span>
+        </p>
+      </div>
+
+      <ul class="footer-copyright-right d-flex align-items-center justify-content-center my-3 h3">
+        <li class="mr-3"><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="mr-3"><a href="#"><i class="fab fa-google"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
