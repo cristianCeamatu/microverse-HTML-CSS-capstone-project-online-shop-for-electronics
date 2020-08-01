@@ -45,7 +45,8 @@ Clone the project locally.
 ### Linters
 
 1. run `npm install`.
-2. run `npm run test` to check the Html and Css files.
+2. run `npm run test` to check the HTML and CSS files.
+2. run `npm run watch` to start watching for SCSS changes.
 
 ### Deployment
 
