@@ -1,7 +1,7 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Online shop (index and search page) - (Built time 16 hours)
+# Online shop (index and search page) - Built time 16 hours
 
 > This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a Crafts(handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
 
@@ -26,7 +26,7 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 - Webhint/Stylelint linters
 - NPM scripts for testing and running the SCSS changes
 
-#### You can check the workflow that I use when building website by reading my medium article [Organize your HTML and CSS files like a pro](https://medium.com/@cristian.ceamatu/the-best-way-to-clone-create-any-website-in-very-simple-steps-3e4f467567ba)
+#### You can check the workflow that I use when building websites by reading my medium article [Organize your HTML and CSS files like a pro](https://medium.com/@cristian.ceamatu/the-best-way-to-clone-create-any-website-in-very-simple-steps-3e4f467567ba)
 
 ## Live Demo
 
@@ -34,7 +34,7 @@ The project is built using HTML and CSS/SCSS with an extensive use of the grid a
 
 [Live Demo search page](https://raw.githack.com/cristianCeamatu/microverse-HTML-CSS-capstone-project-online-shop-for-electronics/dev/search.html)
 
-(You can also navigate between pages using the navigation links and the search form.)g
+(You can also navigate between pages using the navigation links and the search form.)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -55,9 +55,9 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 
 👤 **Cristian Viorel Ceamatu**
 
-- Github: [@githubhandle](https://github.com/cristianCeamatu)
-- Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Github: [@cristianCeamatu](https://github.com/cristianCeamatu)
+- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
+- Linkedin: [Ceamatu-Cristian](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
 
 ## Show your support
 
