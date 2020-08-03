@@ -52,6 +52,10 @@ Clone the project locally.
 
 Install and run a live server plugin on you IDE/Text editor and run it from the root directory.
 
+### Future improvements
+
+Add a backend to the page
+
 ## Authors
 
 👤 **Cristian Viorel Ceamatu**
