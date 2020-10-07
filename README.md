@@ -60,9 +60,10 @@ Add a backend to the page
 
 👤 **Cristian Viorel Ceamatu**
 
-- Github: [@cristianCeamatu](https://github.com/cristianCeamatu)
-- Twitter: [@CeamatuV](https://twitter.com/CeamatuV)
-- Linkedin: [Ceamatu-Cristian](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
+- Email: [cristian.ceamatu@gmail.com](cristian.ceamatu@gmail.com)
+- Github: [https://github.com/cristianCeamatu](https://github.com/cristianCeamatu)
+- Twitter: [https://twitter.com/CristianCeamatu](https://twitter.com/CristianCeamatu)
+- Linkedin: [https://www.linkedin.com/in/ceamatu-cristian/](https://www.linkedin.com/in/ceamatu-cristian/)
 
 ## Show your support
 
